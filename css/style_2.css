@@ -1513,7 +1513,6 @@ content: "";
 }
 .Tp__footer-main .box .footer-content img {
   max-width: 300px;
-  filter: brightness(100);
   width: auto;
   height: auto;
 }
