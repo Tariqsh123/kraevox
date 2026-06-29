@@ -7720,14 +7720,14 @@
 
 .highlight-text-head {
     color: #000;
-    font-size: 40px;
+    font-size: 30px;
     font-style: normal;
     font-weight: bold;
-    line-height: 1.35;
+    /* line-height: 1.35; */
     position: relative;
     width: max-content;
     max-width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .highlight-text-head::after {
@@ -7983,7 +7983,7 @@
 }
 
 .dark {
-    background-color: #171616;
+    background-color: #000;
 }
 
 .our-strengths {
@@ -11858,7 +11858,8 @@ section#AiPowered-Section .inner-wrap .row {
 
 @media (min-width:1200px) {
     .expertise-section {
-        background: linear-gradient(0deg, #171616 55%, transparent 100%);
+        /* background: linear-gradient(0deg, #171616 55%, transparent 100%); */
+        background: linear-gradient(to top, black,transparent);
         margin-top: -190px;
         padding: 10px 0 50px;
     }
@@ -11935,7 +11936,9 @@ section#AiPowered-Section .inner-wrap .row {
         margin-top: -10vh;
     }
 }
-
+.hero-section{
+    padding: 100px 0px 60px;
+}
 .hero-slider-wrapper {
     width: 100%;
     background-color: #171616;
@@ -11980,27 +11983,15 @@ section#AiPowered-Section .inner-wrap .row {
 }
 
 .hero-slide-1 .hero-slide-bg {
-    background-image: url('../images/hero-image-slide1.webp');
+    background-image: url('https://img.magnific.com/free-photo/3d-network-communications-data-technology-background-with-flowing-particles_1048-17155.jpg?semt=ais_hybrid&w=740&q=80');
 }
 
 .hero-slide-2 .hero-slide-bg {
-    background-image: url('../images/slide-2.webp');
+    background-image: url('https://img.magnific.com/free-vector/network-communications-with-flowing-cyber-dots-design_1048-13962.jpg');
 }
 
 .hero-slide-3 .hero-slide-bg {
-    background-image: url('../images/slide-3.webp');
-}
-
-.hero-slide-4 .hero-slide-bg {
-    background-image: url('../images/slide-4.webp');
-}
-
-.hero-slide-5 .hero-slide-bg {
-    background-image: url('../images/slide-5.webp');
-}
-
-.hero-slide-6 .hero-slide-bg {
-    background-image: url('../images/slide-6.webp');
+    background-image: url('https://img.pikbest.com/origin/09/20/87/77hpIkbEsTVS2.jpg!w700wp');
 }
 
 .hero-slide .inner-wrap {
@@ -12233,6 +12224,9 @@ section#AiPowered-Section .inner-wrap .row {
 }
 
 @media (max-width:992px) {
+    .hero-section{
+    padding: 60px 0px 60px;
+}
 
     .hero-slider-wrapper .slick-prev,
     .hero-slider-wrapper .slick-next {
@@ -12268,28 +12262,17 @@ section#AiPowered-Section .inner-wrap .row {
     }
 
     .hero-slide-1 .hero-slide-bg {
-        background-image: url('../images/home-slide1-hero-image.webp');
-    }
-
-    .hero-slide-6 .hero-slide-bg {
-        background-image: url('../images/mobile-slide-6.webp');
+        background-image: url('https://img.magnific.com/free-photo/3d-network-communications-data-technology-background-with-flowing-particles_1048-17155.jpg?semt=ais_hybrid&w=740&q=80');
     }
 
     .hero-slide-2 .hero-slide-bg {
-        background-image: url('../images/mobile-slide-2.webp');
+        background-image: url('https://img.magnific.com/free-vector/network-communications-with-flowing-cyber-dots-design_1048-13962.jpg');
     }
 
     .hero-slide-3 .hero-slide-bg {
-        background-image: url('../images/mobile-slide-3.webp');
+        background-image: url('https://img.pikbest.com/origin/09/20/87/77hpIkbEsTVS2.jpg!w700wp');
     }
 
-    .hero-slide-4 .hero-slide-bg {
-        background-image: url('../images/mobile-slide-4.webp');
-    }
-
-    .hero-slide-5 .hero-slide-bg {
-        background-image: url('../images/mobile-slide-5.webp');
-    }
 
     .hero-slide {
         height: 92vh;
@@ -12557,3 +12540,233 @@ section#AiPowered-Section .inner-wrap .row {
 }
 
 .attachment svg,.widget_media_image svg{max-width:100%;height:auto}
+
+
+
+/*==============================
+      NEW FOOTER
+==============================*/
+
+.new-footer{
+    background:#000;
+    color:#fff;
+    padding:80px 0 0;
+    font-family:inherit;
+}
+
+.new-footer-container{
+    width:90%;
+    max-width:1400px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr 1fr;
+    gap:70px;
+}
+
+.new-footer-column{
+    display:flex;
+    flex-direction:column;
+}
+
+.new-footer-logo{
+    width:auto;
+    height:100px;
+    margin-bottom:25px;
+}
+
+.new-footer-text{
+    color:#bcbcbc;
+    font-size:15px;
+    line-height:1.9;
+    margin-bottom:35px;
+    max-width:420px;
+}
+
+/*==============================
+        TITLES
+==============================*/
+
+.new-footer-title{
+    color:#fff;
+    font-size: large;
+    font-weight:700;
+    margin:0 0 30px;
+    position:relative;
+}
+
+.new-footer-title::after{
+    content:"";
+    width:45px;
+    height:3px;
+    background:#e7b71d;
+    display:block;
+    margin-top:12px;
+    border-radius:20px;
+}
+
+/*==============================
+         LINKS
+==============================*/
+
+.new-footer-link{
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    margin-bottom:14px;
+    font-size:15px;
+    transition:.35s ease;
+}
+
+.new-footer-link:hover{
+    color:#e7b71d;
+    transform:translateX(8px);
+}
+
+/*==============================
+      SOCIAL ICONS
+==============================*/
+
+.new-footer-social-list{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+.new-footer-social-item{
+    list-style:none;
+}
+
+.new-footer-facebook,
+.new-footer-twitter,
+.new-footer-linkedin{
+    text-decoration:none;
+}
+
+.new-footer-social-round{
+    width:48px;
+    height:48px;
+    border-radius:50%;
+    border:1px solid #2a2a2a;
+    background:#111;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transition:.35s ease;
+    cursor:pointer;
+}
+
+.new-footer-social-round span{
+    color:#fff;
+    transition:.35s ease;
+}
+
+.new-footer-social-round svg{
+    fill:#fff;
+    transition:.35s ease;
+}
+
+.new-footer-social-round:hover{
+    background:#e7b71d;
+    border-color:#e7b71d;
+    transform:translateY(-6px);
+    box-shadow:0 12px 25px rgba(255,212,0,.25);
+}
+
+.new-footer-social-round:hover span{
+    color:#000;
+}
+
+.new-footer-social-round:hover svg{
+    fill:#000;
+}
+
+/*==============================
+      BOTTOM BAR
+==============================*/
+
+.new-footer-bottom{
+    margin-top:70px;
+    padding:25px 15px;
+    border-top:1px solid #1e1e1e;
+    text-align:center;
+    color:#8d8d8d;
+    font-size:14px;
+    letter-spacing:.3px;
+}
+
+/*==============================
+      TABLET
+==============================*/
+
+@media (max-width:1100px){
+
+.new-footer-container{
+    grid-template-columns:repeat(2,1fr);
+    gap:50px;
+}
+
+}
+
+/*==============================
+      MOBILE
+==============================*/
+
+@media (max-width:768px){
+
+.new-footer{
+    padding-top:60px;
+}
+
+.new-footer-container{
+    grid-template-columns:1fr;
+    gap:45px;
+    width:92%;
+}
+.new-footer-logo{
+    width:100%;
+    height: auto;
+}
+
+.new-footer-title{
+    margin-bottom:22px;
+    font-size:20px;
+}
+
+.new-footer-text{
+    max-width:100%;
+}
+
+.new-footer-bottom{
+    margin-top:45px;
+    font-size:13px;
+}
+
+}
+
+/*==============================
+    SMALL MOBILE
+==============================*/
+
+@media (max-width:480px){
+
+.new-footer-social-list{
+    gap:12px;
+}
+
+.new-footer-social-round{
+    width:44px;
+    height:44px;
+}
+
+.new-footer-link{
+    font-size:14px;
+}
+
+.new-footer-text{
+    font-size:14px;
+}
+
+}

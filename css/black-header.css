@@ -36,6 +36,9 @@
     border-top: 0!important;
     backdrop-filter: blur(0px)!important;
     min-height: fit-content;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    gap: 50px;
 }
 
 @media (min-width: 993px){
@@ -76,6 +79,9 @@
     .tp__header.bg-white .careers-menu>a+.sub-menu {
         justify-content: start;
     }
+    .tp__header.bg-white .sub-menu-wrap>a+.sub-menu {
+    gap: 0px;
+}
 }
 
 
